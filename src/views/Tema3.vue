@@ -98,47 +98,47 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center IN
                     td.text-center Venta de inventarios
                     td.text-center 
                     td.text-center 10.840.336 
-                  tr
+                  tr.th-4
                     td.text-center PS
                     td.text-center IVA Generado
                     td.text-center 
                     td.text-center 2.059.664 
-                  tr
+                  tr.th-3
                     td.text-center AC
                     td.text-center Anticipo Retefuente 2,5%
                     td.text-center 271.008 
                     td.text-center  
-                  tr
+                  tr.th-4
                     td.text-center AC
                     td.text-center Anticipo Reteica 0,6%
                     td.text-center 65.042 
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center AC
                     td.text-center Cuentas  por cobrar Clientes
                     td.text-center 12.563.950 
                     td.text-center 
-                  tr
+                  tr.th-4
                     td.text-center AC
                     td.text-center Cuentas por cobrar Clientes
                     td.text-center 
                     td.text-center 12.563.950 
-                  tr
+                  tr.th-3
                     td.text-center AC
                     td.text-center 12.563.950 
                     td.text-center 
                     td.text-center 
-                  tr
+                  tr.th-4
                     td.text-center.color-text GA
                     td.text-center.color-text  Gasto de venta
                     td.text-center.color-text  6.504.202 
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center.color-text AC
                     td.text-center.color-text  Inventarios para la venta
                     td.text-center 
@@ -158,37 +158,37 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center IN
                     td.text-center Devoluciones en Venta
                     td.text-center 1.000.000 
                     td.text-center 
-                  tr
+                  tr.th-4
                     td.text-center PS
                     td.text-center IVA Generado
                     td.text-center 190.000
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center AC
                     td.text-center Anticipo Retefuente 2,5%
                     td.text-center 
                     td.text-center 25.000 
-                  tr
+                  tr.th-4
                     td.text-center AC
                     td.text-center Anticipo Reteica 0,6%
                     td.text-center 
                     td.text-center 6.000 
-                  tr
+                  tr.th-3
                     td.text-center AC
                     td.text-center Efectivo y equivalentes al efectivo
                     td.text-center 
                     td.text-center 1.159.000 
-                  tr
+                  tr.th-4
                     td.text-center.color-text AC
                     td.text-center.color-text Gasto de venta
                     td.text-center 
                     td.text-center 600.000 
-                  tr
+                  tr.th-3
                     td.text-center.color-text AC
                     td.text-center.color-text Inventarios para la venta
                     td.text-center.color-text 600.000 

@@ -142,27 +142,27 @@
                     th DÍAS
                     th VALOR
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center Vigente
                     td.text-center 0-30
                     td.text-center 50.000.000
-                  tr
+                  tr.th-4
                     td.text-center Vencida
                     td.text-center 31-90
                     td.text-center 10.500.000
-                  tr
+                  tr.th-3
                     td.text-center Vencida
                     td.text-center 91-180
                     td.text-center 4.000.000
-                  tr
+                  tr.th-4
                     td.text-center Vencida
                     td.text-center 181-360
                     td.text-center 5.500.000
-                  tr
+                  tr.th-3
                     td.text-center Vencida
                     td.text-center + 360
                     td.text-center 2.000.000
-                  tr
+                  tr.th-4
                     td.text-center 
                     td.text-center <b>TOTAL CARTERA</b>
                     td.text-center <b>72.000.000</b>
@@ -206,25 +206,25 @@
                     th % PRO
                     th PROVISIÓN
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center Vencida
                     td.text-center 91-180
                     td.text-center 4.000.000
                     td.text-center 5%
                     td.text-center 200.000
-                  tr
+                  tr.th-4
                     td.text-center Vencida
                     td.text-center 181-360
                     td.text-center 5.500.000
                     td.text-center 10%
                     td.text-center 550.000
-                  tr
+                  tr.th-3
                     td.text-center Vencida
                     td.text-center 360
                     td.text-center 2.000.000
                     td.text-center 15%
                     td.text-center 300.000
-                  tr
+                  tr.th-4
                     td.text-center 
                     td.text-center 
                     td.text-center <b>11.500.000</b>

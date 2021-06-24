@@ -12,7 +12,7 @@
 
     .row.justify-content-center.align-items-center.mt-5
         .col-12.col-lg-6
-          .cajon.color-custom.p-4.mb-4
+          .cajon.color-secundario.p-4.mb-4
               .h5 
               p De acuerdo a la NIIF 7 (2009), cuando esta requiera que la información se suministre por clases de instrumentos financieros, una entidad los agrupará en clases que sean apropiadas según la naturaleza de la información a revelar y que tengan en cuenta las características de dichos instrumentos financieros. Una entidad suministrará información suficiente para permitir la conciliación con las partidas presentadas en las partidas del estado de situación financiera.
 
@@ -39,30 +39,30 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-6
-          img.img-a.my-3(src="@/assets/curso/images/tema2/img_12.svg" alt="", style="width:500px; display:block; margin:auto 0;")
+          img.me-5(src="@/assets/curso/images/tema2/img_12.svg" alt="", style="width:500px; display:block; margin:auto 0;")
       .col-lg-6
-        hr.mt-5.mb-4
+        hr.my-5.mb-4
         .row.justify-content-center.align-items-center
           .col-auto
             figure
               img.me-5(src='@/assets/curso/images/tema2/ico_1.svg' alt="", style="width:70px; display:block; margin:auto 0;")    
           .col
             p El importe del cambio, de forma acumulada, en el valor razonable del pasivo financiero que es atribuible a cambios en el riesgo de crédito de ese pasivo.
-        hr.mt-5.mb-4
+        hr.my-5.mb-4
         .row.justify-content-center.align-items-center
           .col-auto
             figure
               img.me-5(src='@/assets/curso/images/tema2/ico_2.svg' alt="", style="width:70px; display:block; margin:auto 0;")     
           .col
             p La diferencia entre el importe en libros del pasivo financiero y el importe que la entidad estaría obligada contractualmente a pagar al tenedor de la obligación, en el momento del vencimiento. 
-        hr.mt-5.mb-4
+        hr.my-5.mb-4
         .row.justify-content-center.align-items-center
           .col-auto
             figure
               img.me-5(src='@/assets/curso/images/tema2/ico_3.svg' alt="", style="width:70px; display:block; margin:auto 0;")
           .col
             p Cualquier transferencia de ganancias o pérdidas acumuladas dentro de patrimonio durante el período incluyendo la razón para estas transferencias. 
-        hr.mt-5.mb-4
+        hr.my-5.mb-4
         .row.justify-content-center.align-items-center.mb-5
           .col-auto
             figure
@@ -84,19 +84,19 @@
 
     p.mb-3La aplicación prospectiva de un cambio en una política contable y del reconocimiento del efecto de un cambio en una estimación contable consiste, respectivamente, en: 
 
-    .row.mb-5
-      .col-md-6.col-lg.mb-5.mb-lg-0
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-4
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema2/img_13.svg', alt="", style="width:150px; display:block; margin:0 auto;")
-          .tarjeta.color-primario
+          .tarjeta.color-tarjeta
             .p-3
               
               p La aplicación de la nueva política contable a las transacciones, otros sucesos y condiciones ocurridos tras la fecha en que se cambió la política.
 
-      .col-md-6.col-lg.mb-5.mb-lg-0
+      .col-12.col-lg-4
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema2/img_14.svg', alt="", style="width:150px; display:block; margin:0 auto;")
-          .tarjeta.color-primario
+          .tarjeta.color-tarjeta
             .p-3
               
               p El reconocimiento del efecto del cambio en la estimación contable para el período corriente y los períodos futuros afectados por dicho cambio.
@@ -154,27 +154,27 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center AC
                     td.text-center Inventarios para la venta
                     td.text-center 10.100.000
                     td.text-center 
-                  tr
+                  tr.th-4
                     td.text-center PS
                     td.text-center IVA Descontable
                     td.text-center 1.919.000
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center PS
                     td.text-center Retefuente 2,5%
                     td.text-center 
                     td.text-center 252.500
-                  tr
+                  tr.th-4
                     td.text-center PS
                     td.text-center Reteica 0,6%
                     td.text-center 
                     td.text-center 60.600
-                  tr
+                  tr.th-3
                     td.text-center PS
                     td.text-center Cuentas por Pagar - Proveedores
                     td.text-center 
@@ -190,12 +190,12 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center PS
                     td.text-center Cuentas por Pagar - Proveedores
                     td.text-center 3.511.770
                     td.text-center 
-                  tr
+                  tr.th-4
                     td.text-center AC
                     td.text-center Efectivo
                     td.text-center 

@@ -128,47 +128,51 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-sm.mb-5.mb-sm-0
-        ol.lista-ol--cuadro.lista-ol--separador
-          li 
-            .lista-ol--cuadro__vineta
-              span 1
-            | Se hace conteo físico para hallar el costo de existencia.
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            | Solo al cierre del ejercicio se halla el costo de venta 
-          li 
-            .lista-ol--cuadro__vineta
-              span 3
-            | Solo hay un método de valuación “Juego de Inventarios”
-          li 
-            .lista-ol--cuadro__vineta
-              span 4
-            | El kardex solo mueve unidades sin costos
-          
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span 1
+              | Se hace conteo físico para hallar el costo de existencia.
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              | Solo al cierre del ejercicio se halla el costo de venta. 
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              | Solo hay un método de valuación “Juego de Inventarios”.
+            li 
+              .lista-ol--cuadro__vineta
+                span 4
+              | El kardex solo mueve unidades sin costos.
+            li 
+              .lista-ol--cuadro__vineta
+                span 5
+              | Item lista ordenada 5.
+      
           p.mt-5.mb-5 El sistema de inventarios permanente tiene las siguientes características:
-    
-        ol.lista-ol--cuadro.lista-ol--separador
-          li 
-            .lista-ol--cuadro__vineta
-              span 1
-            | Se hace conteo físico por control y no para hallar costos.
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            | Costos de venta y existencia se hallan en cualquier momento
-          li 
-            .lista-ol--cuadro__vineta
-              span 3
-            | Por sentencia ejecutoriada.
-          li 
-            .lista-ol--cuadro__vineta
-              span 4
-            | Se debe elegir uno entre varios métodos de valuación “Promedio ponderado, Primeras en Entrar Primeras en Salir 
-          li 
-            .lista-ol--cuadro__vineta
-              span 5
-            | El kardex mueve tanto unidades como costos.
+
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span 1
+              | Se hace conteo físico por control y no para hallar costos.
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              | Costos de venta y existencia se hallan en cualquier momento.
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              | Por sentencia ejecutoriada.
+            li 
+              .lista-ol--cuadro__vineta
+                span 4
+              | Se debe elegir uno entre varios métodos de valuación “Promedio ponderado, Primeras en Entrar Primeras en Salir.
+            li 
+              .lista-ol--cuadro__vineta
+                span 5
+              | El kardex mueve tanto unidades como costos.
           
       .col-12.col-md-8.col-lg-6.col-xl-6
         img.img-a.my-3(src="@/assets/curso/images/tema1/img_5.svg" alt="", style="width:500px; display:block; margin:0 auto;") 
@@ -186,35 +190,319 @@
           table
             tbody
               tr
-                td.text-center 0
-                td Inventario Inicial 80 camisetas a $5.000 c/u
+                td(width='15').text-center 0
+                td(width='85').text-center Inventario Inicial 80 camisetas a $5.000 c/u
               tr
-                td.text-center  1
-                td Compra 120 camisetas a $5.500 c/u
+                td(width='15').text-center  1
+                td(width='85').text-center Compra 120 camisetas a $5.500 c/u
               tr
-                td.text-center  2
-                td Compra 100 camisetas a $6.000 c/u 
+                td(width='15').text-center  2
+                td(width='85').text-center Compra 100 camisetas a $6.000 c/u 
               tr
-                td.text-center  3
-                td Devuelve 10 camisetas de la compra anterior
+                td(width='15').text-center  3
+                td(width='85').text-center Devuelve 10 camisetas de la compra anterior
               tr
-                td.text-center  4
-                td Vende 190 camisetas a $15.000 c/u
+                td(width='15').text-center  4
+                td(width='85').text-center Vende 190 camisetas a $15.000 c/u
               tr
-                td.text-center  5
-                td Le devuelven 10 camisetas de la venta anterior
+                td(width='15').text-center  5
+                td(width='85').text-center Le devuelven 10 camisetas de la venta anterior
               tr
-                td.text-center  6
-                td Compra 90 camisetas a $6.500 c/u
+                td(width='15').text-center  6
+                td(width='85').text-center Compra 90 camisetas a $6.500 c/u
               tr
-                td.text-center  7
-                td Vende 100 camisetas a $15.000 c/u
-
+                td(width='15').text-center  7
+                td(width='85').text-center Vende 100 camisetas a $15.000 c/u
     .row.justify-content-center.align-items-center.mt-5
-      .col-12.col-md-8.col-lg-12.mb-5
-          img(src="@/assets/curso/images/tema1/t_1.svg" alt="", style="width:950px; display:block; margin: 0 auto;") 
+      .col-10
+        table.tg
+          thead
+            tr.th-1
+              th.tg-0pky(colspan='10')
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                p.text-center.text-white <b>PROMEDIO PONDERADO</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+          tbody
+            tr.th-2
+              td.tg-0pky(rowspan='2')
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>F</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky(rowspan='2')
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>CONCEP</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky(colspan='2')
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>ENTRADAS</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky(colspan='2')
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>SALIDAS</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky(colspan='4')
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>SALDOS</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+            tr.th-2
+              td.tg-0pky
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>U</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>C.TOT</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>U</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>C.TOT</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>U</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>C.UN</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                br
+                span(style='color:black') <b>C.TOT</b>
+                span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              td.tg-0pky  
+            tr.th-3
+              td.tg-0pky
+                br
+                p.text-center 0
+              td.tg-0pky
+                br
+                | Inv.Ini
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+                | 80
+              td.tg-0pky
+                br
+                | 5.000
+              td.tg-0pky
+                br
+                | 400.000
+              td.tg-0pky  
+            tr.th-4
+              td.tg-0pky
+                br
+                p.text-center 1
+              td.tg-0pky
+                br
+                | Compra
+              td.tg-0pky
+                br
+                | 120
+              td.tg-0pky
+                br
+                | 660.000
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+                | 200
+              td.tg-0pky
+                br
+                | 5.300
+              td.tg-0pky
+                br
+                | 1.060.000
+              td.tg-0pky  
+            tr.th-3
+              td.tg-0pky
+                br
+                p.text-center 2
+              td.tg-0pky
+                br
+                | Compra
+              td.tg-0pky
+                br
+                | 100
+              td.tg-0pky
+                br
+                | 600.000
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+                | 300
+              td.tg-0pky
+                br
+                | 5.533
+              td.tg-0pky
+                br
+                | 1.660.000
+              td.tg-0pky  
+            tr.th-4
+              td.tg-0pky
+                br
+                p.text-center 3
+              td.tg-0pky
+                br
+                | D.Com.2
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+                | 10
+              td.tg-0pky
+                br
+                | 60.000
+              td.tg-0pky
+                br
+                | 290
+              td.tg-0pky
+                br
+                | 5.517
+              td.tg-0pky
+                br
+                | 1.600.000
+              td.tg-0pky  
+            tr.th-3
+              td.tg-0pky
+                br
+                p.text-center 4
+              td.tg-0pky
+                br
+                | Venta
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+                | 190
+              td.tg-0pky
+                br
+                | 1.048.276
+              td.tg-0pky
+                br
+                | 100
+              td.tg-0pky
+                br
+                | 5.517
+              td.tg-0pky
+                br
+                | 551.724
+              td.tg-0pky  
+            tr.th-4
+              td.tg-0pky
+                br
+                p.text-center 5
+              td.tg-0pky
+                br
+                | D.Ven.4
+              td.tg-0pky
+                br
+                | 10
+              td.tg-0pky
+                br
+                | 55.172
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+                | 110
+              td.tg-0pky
+                br
+                | 5.517
+              td.tg-0pky
+                br
+                | 606.897
+              td.tg-0pky  
+            tr.th-3
+              td.tg-0pky
+                br
+                p.text-center 6
+              td.tg-0pky
+                br
+                | Compra
+              td.tg-0pky
+                br
+                | 90
+              td.tg-0pky
+                br
+                | 585.000
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+                | 200
+              td.tg-0pky
+                br
+                | 5.959
+              td.tg-0pky
+                br
+                | 1.191.897
+              td.tg-0pky  
+            tr.th-4
+              td.tg-0pky
+                br
+                p.text-center 7
+              td.tg-0pky
+                br
+                | Venta
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+              td.tg-0pky
+                br
+                | 100
+              td.tg-0pky
+                br
+                | 595.948
+              td.tg-0pky
+                br
+                | 100
+              td.tg-0pky
+                br
+                | 5.959
+              td.tg-0pky
+                br
+                | 595.948
+              td.tg-0pky  
 
-    p.mb-3 El kardex quedará así:
+    p.my-5 El kardex quedará así:
 
     p.mb-3 A continuación, se muestra el mismo ejercicio, pero ahora por el método de Primera en Entrar Primeras en Salir (PEPS), cuyo objetivo es mantener los costos más recientes.
 
@@ -234,36 +522,536 @@
             table
               tbody
                 tr
-                  td.text-center 0
-                  td Inventario Inicial 80 camisetas a $5.000 c/u
+                  td(width='15').text-center 0
+                  td(width='85').text-center Inventario Inicial 80 camisetas a $5.000 c/u
                 tr
-                  td.text-center  1
-                  td Compra 120 camisetas a $5.500 c/u
+                  td(width='15').text-center  1
+                  td(width='85').text-center Compra 120 camisetas a $5.500 c/u
                 tr
-                  td.text-center  2
-                  td Compra 100 camisetas a $6.000 c/u 
+                  td(width='15').text-center  2
+                  td(width='85').text-center Compra 100 camisetas a $6.000 c/u 
                 tr
-                  td.text-center  3
-                  td Devuelve 10 camisetas de la compra anterior
+                  td(width='15').text-center  3
+                  td(width='85').text-center Devuelve 10 camisetas de la compra anterior
                 tr
-                  td.text-center  4
-                  td Vende 190 camisetas a $15.000 c/u
+                  td(width='15').text-center  4
+                  td(width='85').text-center Vende 190 camisetas a $15.000 c/u
                 tr
-                  td.text-center  5
-                  td Le devuelven 10 camisetas de la venta anterior
+                  td(width='15').text-center  5
+                  td(width='85').text-center Le devuelven 10 camisetas de la venta anterior
                 tr
-                  td.text-center  6
-                  td Compra 90 camisetas a $6.500 c/u
+                  td(width='15').text-center  6
+                  td(width='85').text-center Compra 90 camisetas a $6.500 c/u
                 tr
-                  td.text-center  7
-                  td Vende 100 camisetas a $15.000 c/u
+                  td(width='15').text-center  7
+                  td(width='85').text-center Vende 100 camisetas a $15.000 c/u
 
     p.mb-3 El kardex quedará así:
-      
+
     .row.justify-content-center.align-items-center.mt-5
-      .col-12.col-md-8.col-lg-12.mb-5
-          img(src="@/assets/curso/images/tema1/t_2.svg" alt="", style="width:950px; display:block; margin: 0 auto;") 
-    p.mb-3 Contablemente quedará así:
+      .col-10
+            table.tg
+              thead
+                tr.th-1
+                  th.tg-0lax(colspan='9')
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    p.text-center.text-white  <b>PEPS : PRIMERAS EN ENTRAS PRIMERAS EN SALIR</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+              tbody
+                tr.th-2
+                  td.tg-0lax(rowspan='2')
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>F</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                  td.tg-0lax(rowspan='2')
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>CONCEP</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                  td.tg-0lax(colspan='2')
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>ENTRADAS</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                  td.tg-0lax(colspan='2')
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>SALIDAS</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                  td.tg-0lax(colspan='3')
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>SALDOS</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                tr.th-2
+                  td.tg-0lax
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>U</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                  td.tg-0lax
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>C.TOT</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                  td.tg-0lax
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>U</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                  td.tg-0lax
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>C.TOT</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                  td.tg-0lax
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>U</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                  td.tg-0lax
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') C.UN
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                  td.tg-0lax
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                    br
+                    span(style='color:black') <b>C.TOT</b>
+                    span(style='background-color:#D9D9D9') &nbsp;&nbsp;&nbsp;
+                tr.th-3
+                  td.tg-0lax
+                    br
+                    p.text-center 0
+                  td.tg-0lax
+                    br
+                    | Inv.Ini
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 80
+                  td.tg-0lax
+                    br
+                    | 5.000
+                  td.tg-0lax
+                    br
+                    | 400.000
+                tr.th-4
+                  td.tg-0lax(rowspan='2')
+                    br
+                    br
+                    br
+                    p.text-center 1
+                  td.tg-0lax
+                    br
+                    | Compra
+                  td.tg-0lax
+                    br
+                    | 120
+                  td.tg-0lax
+                    br
+                    | 660.000
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 80
+                  td.tg-0lax
+                    br
+                    | 5.000
+                  td.tg-0lax
+                    br
+                    | 400.000
+                tr.th-4
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 120
+                  td.tg-0lax
+                    br
+                    | 5.500
+                  td.tg-0lax
+                    br
+                    | 660.000
+                tr.th-3
+                  td.tg-0lax(rowspan='3')
+                    br
+                    br
+                    br
+                    p.text-center 2
+                  td.tg-0lax
+                    br
+                    | Compra
+                  td.tg-0lax
+                    br
+                    | 100
+                  td.tg-0lax
+                    br
+                    | 600.000
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 80
+                  td.tg-0lax
+                    br
+                    | 5.000
+                  td.tg-0lax
+                    br
+                    | 400.000
+                tr.th-3
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 120
+                  td.tg-0lax
+                    br
+                    | 5.500
+                  td.tg-0lax
+                    br
+                    | 660.000
+                tr.th-3
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 100
+                  td.tg-0lax
+                    br
+                    | 6.000
+                  td.tg-0lax
+                    br
+                    | 600.000
+                tr.th-4
+                  td.tg-0lax
+                    br
+                    br
+                    br
+                    p.text-center 3
+                  td
+                    br
+                    p.text-center D.Com2
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 10
+                  td.tg-0lax
+                    br
+                    | 60.000
+                  td.tg-0lax
+                    br
+                    | 80
+                  td.tg-0lax
+                    br
+                    | 5.000
+                  td.tg-0lax
+                    br
+                    | 400.000
+                tr.th-3
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 120
+                  td.tg-0lax
+                    br
+                    | 5.500
+                  td.tg-0lax
+                    br
+                    | 660.000
+                tr.th-3
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 90
+                  td.tg-0lax
+                    br
+                    | 6.000
+                  td.tg-0lax
+                    br
+                    | 540.000
+                tr.th-4
+                  td.tg-0lax(rowspan='2')
+                    br
+                    br
+                    br
+                    p.text-center 4
+                  td.tg-0lax
+                    br
+                    | Venta
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 80
+                  td.tg-0lax
+                    br
+                    | 400.000
+                  td.tg-0lax
+                    br
+                    | 10
+                  td.tg-0lax
+                    br
+                    | 5.500
+                  td.tg-0lax
+                    br
+                    | 55.000
+                tr.th-4
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 110
+                  td.tg-0lax
+                    br
+                    | 605.000
+                  td.tg-0lax
+                    br
+                    | 90
+                  td.tg-0lax
+                    br
+                    | 6.000
+                  td.tg-0lax
+                    br
+                    | 540.000
+                tr.th-3
+                  td.tg-0lax
+                    br
+                    br
+                    br
+                    p.text-center 5
+                  td.tg-0lax(rowspan='2')
+                    br
+                    | D.Ven4
+                    br
+                    br
+                  td.tg-0lax
+                    br
+                    | 10
+                  td.tg-0lax
+                    br
+                    | 55.000
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 20
+                  td.tg-0lax
+                    br
+                    | 5.500
+                  td.tg-0lax
+                    br
+                    | 110.000
+                tr.th-3
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 90
+                  td.tg-0lax
+                    br
+                    | 6.000
+                  td.tg-0lax
+                    br
+                    | 540.000
+                tr.th-4
+                  td.tg-0lax(rowspan='3')
+                    br
+                    br
+                    br
+                    p.text-center 6
+                  td.tg-0lax
+                    br
+                    | Compra
+                  td.tg-0lax
+                    br
+                    | 90
+                  td.tg-0lax
+                    br
+                    | 585.000
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 20
+                  td.tg-0lax
+                    br
+                    | 5.500
+                  td.tg-0lax
+                    br
+                    | 110.000
+                tr.th-4
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 90
+                  td.tg-0lax
+                    br
+                    | 6.000
+                  td.tg-0lax
+                    br
+                    | 540.000
+                tr.th-4
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 90
+                  td.tg-0lax
+                    br
+                    | 6.500
+                  td.tg-0lax
+                    br
+                    | 585.000
+                tr.th-3
+                  td.tg-0lax(rowspan='2')
+                    br
+                    br
+                    br
+                    p.text-center 7
+                  td.tg-0lax
+                    br
+                    | Venta
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 20
+                  td.tg-0lax
+                    br
+                    | 110.000
+                  td.tg-0lax
+                    br
+                    | 10
+                  td.tg-0lax
+                    br
+                    | 6.000
+                  td.tg-0lax
+                    br
+                    | 60.000
+                tr.th-3
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                  td.tg-0lax
+                    br
+                    | 80
+                  td.tg-0lax
+                    br
+                    | 480.000
+                  td.tg-0lax
+                    br
+                    | 90
+                  td.tg-0lax
+                    br
+                    | 6.500
+                  td.tg-0lax
+                    br
+                    | 585.000
+    
+          
+    p.my-5 Contablemente quedará así:
 
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-8.col-lg-12.mb-5
@@ -276,9 +1064,8 @@
             p.mb-3 Los costos estándares tendrán en cuenta los niveles normales de materias primas, suministros, mano de obra, eficiencia y utilización de la capacidad. Estos se revisarán de forma regular y, si es necesario, se cambiarán en función de las condiciones actuales. 
 
             p.mb-3 El método de los minoristas se utiliza a menudo, en el sector comercial al por menor para la medición de inventarios cuando hay un gran número de artículos que rotan velozmente, que tienen márgenes similares y para los cuales resulta impracticable usar otros métodos de cálculo de costos. Cuando se emplea este método, el costo de los inventarios se determinará deduciendo, del precio de venta del artículo en cuestión, un porcentaje apropiado de margen bruto. El porcentaje aplicado tendrá en cuenta la parte de los inventarios que se han marcado por debajo de su precio de venta original. A menudo se utiliza un porcentaje promedio para cada sección o departamento comercial.
-
+          
             .cajon.color-custom.p-4.mb-4
-              .h5 
               p De acuerdo con la sección 13 de NIIF para Pymes (2009), una entidad medirá los inventarios al importe menor entre el costo y el precio de venta estimado menos los costos de terminación y venta. Una entidad incluirá en el costo de los inventarios todos los costos de compra, costos de transformación y otros costos incurridos para darles su condición y ubicación actuales.Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
 
           .col-6.col-md-8.col-lg-6.mb-5
@@ -306,18 +1093,19 @@
                   th DEBE
                   th HABER
               tbody
-                tr
+                tr.th-3
                   td.text-center AC
                   td.text-center Anticipo a proveedores
                   td.text-center 5.000.000
                   td.text-center 
-                tr
+                tr.th-4
                   td.text-center AC
                   td.text-center Efectivo y equivalentes al efectivo
                   td.text-center 
                   td.text-center 5.000.000
               
-      .row.tarjeta-fondo-paso(numero="2" titulo="Compra inventarios para la venta por $19.500.000 más IVA 19%, menos retefuente 2,5% y reteica 0,4%. Legaliza el anticipo y el. saldo a crédito")
+      .row.tarjeta-fondo-paso(numero="2" titulo="Compra inventarios para la venta por $19.500.000 más IVA 19%, menos retefuente 2,5% y reteica 0,4%.")
+        p Legaliza el anticipo y el. saldo a crédito
         .col-12
           .tabla-a.color-acento-contenido.mt-5
             table
@@ -328,32 +1116,32 @@
                   th DEBE
                   th HABER
               tbody
-                tr
+                tr.th-3
                   td.text-center AC
                   td.text-center Inv. Mercancías
                   td.text-center 19.500.000 
                   td.text-center 
-                tr
+                tr.th-4
                   td.text-center PS
                   td.text-center IVA Descontable
                   td.text-center 3.705.000 
                   td.text-center 
-                tr
+                tr.th-3
                   td.text-center PS
                   td.text-center Retefuente 2,5%
                   td.text-center 
                   td.text-center 487.500 
-                tr
+                tr.th-4
                   td.text-center PS
                   td.text-center Reteica 0,4%
                   td.text-center 
                   td.text-center 78.000 
-                tr
+                tr.th-3
                   td.text-center AC
                   td.text-center Anticipo a proveedores
                   td.text-center 
                   td.text-center 5.000.000 
-                tr
+                tr.th-4
                   td.text-center PS
                   td.text-center Proveedores
                   td.text-center
@@ -370,35 +1158,36 @@
                   th DEBE
                   th HABER
               tbody
-                tr
+                tr.th-3
                   td.text-center AC
                   td.text-center Inventarios para la venta
                   td.text-center 
                   td.text-center 1.260.504 
-                tr
+                tr.th-4
                   td.text-center PS
                   td.text-center IVA Descontable
                   td.text-center 
                   td.text-center 239.496 
-                tr
+                tr.th-3
                   td.text-center PS
                   td.text-center Retefuente 2,5%
                   td.text-center 31.513 
                   td.text-center 
-                tr
+                tr.th-4
                   td.text-center PS
                   td.text-center Reteica 0,4%
                   td.text-center 5.042 
                   td.text-center 
-                tr
+                tr.th-3
                   td.text-center PS
                   td.text-center Cuentas por Pagar – Proveedores
                   td.text-center 1.463.445 
                   td.text-center 
 
           
-      .row.tarjeta-fondo-paso(numero="4" titulo="Vende inventarios por un precio de $11.500.000 incluido IVA 19%, menos: retefuente 2,5%, reteiva 15% y reteica 0,4%.  Le pagan el 40% y el saldo a crédito   (65% Gasto de Venta)")
+      .row.tarjeta-fondo-paso(numero="4" titulo="Vende inventarios por un precio de $11.500.000 incluido IVA 19%, menos:")
         .col-12
+          p retefuente 2,5%, reteiva 15% y reteica 0,4%.  Le pagan el 40% y el saldo a crédito   (65% Gasto de Venta)
           .tabla-a.color-acento-contenido.mt-5
             table
               thead
@@ -408,62 +1197,62 @@
                   th DEBE
                   th HABER
               tbody
-                tr
+                tr.th-3
                   td.text-center IN
                   td.text-center Venta de inventarios
                   td.text-center 
                   td.text-center 9.663.866 
-                tr
+                tr.th-4
                   td.text-center PS
                   td.text-center IVA Generado
                   td.text-center 
                   td.text-center 1.836.134 
-                tr
+                tr.th-3
                   td.text-center 
                   td.text-center Anticipo Retefuente 
                   td.text-center
                   td.text-center  
-                tr
+                tr.th-4
                   td.text-center AC
                   td.text-center 2,5%
                   td.text-center 241.597 
                   td.text-center 
-                tr
+                tr.th-3
                   td.text-center AC
                   td.text-center Anticipo Reteiva 15%
                   td.text-center 275.420 
                   td.text-center 
-                tr
+                tr.th-4
                   td.text-center AC
                   td.text-center Anticipo Reteica 0,4%
                   td.text-center 38.655 
                   td.text-center 
-                tr
+                tr.th-3
                   td.text-center 
                   td.text-center Cuentas por cobrar 
                   td.text-center 
                   td.text-center 
-                tr
+                tr.th-4
                   td.text-center AC
                   td.text-center Clientes
                   td.text-center 
                   td.text-center 4.377.731 
-                tr
+                tr.th-3
                   td.text-center 
                   td.text-center Efectivo y equivalentes 
                   td.text-center 
                   td.text-center 
-                tr
+                tr.th-4
                   td.text-center AC
                   td.text-center al efectivo
                   td.text-center 4.377.731 
                   td.text-center 
-                tr
+                tr.th-3
                   td.text-center.color-text GA
                   td.text-center.color-text Gasto de venta
                   td.text-center.color-text 6.281.513 
                   td.text-center 
-                tr
+                tr.th-4
                   td.text-center.color-text AC
                   td.text-center.color-text Inventarios para la venta
                   td.text-center 
@@ -480,47 +1269,47 @@
                   th DEBE
                   th HABER
               tbody
-                tr
+                tr.th-3
                   td.text-center IN
                   td.text-center Devoluciones en venta 
                   td.text-center 850.000 
                   td.text-center 
-                tr
+                tr.th-4
                   td.text-center PS
                   td.text-center IVA Generado
                   td.text-center 161.500 
                   td.text-center 
-                tr
+                tr.th-3
                   td.text-center 
                   td.text-center Anticipo Retefuente 
                   td.text-center
                   td.text-center  
-                tr
+                tr.th-4
                   td.text-center AC
                   td.text-center Anticipo Reteiva 15%
                   td.text-center 
                   td.text-center 24.225 
-                tr
+                tr.th-3
                   td.text-center AC
                   td.text-center Anticipo Reteica 0,4%
                   td.text-center 
                   td.text-center 3.400 
-                tr
+                tr.th-4
                   td.text-center Cuentas por cobrar 
                   td.text-center 
                   td.text-center  
                   td.text-center 
-                tr
+                tr.th-3
                   td.text-center AC
                   td.text-center Clientes
                   td.text-center 
                   td.text-center 962.625 
-                tr
+                tr.th-4
                   td.text-center.color-text GA
                   td.text-center.color-text Gasto de venta
                   td.text-center 
                   td.text-center.color-text 552.500 
-                tr
+                tr.th-3
                   td.text-center.color-text AC
                   td.text-center.color-text Inventarios para la venta
                   td.text-center.color-text 552.500 
@@ -554,7 +1343,6 @@
                 | Las pérdidas por deterioro del valor reconocidas o revertidas en el resultado de acuerdo con la sección 27 de NIIF para Pymes “Deterioro del Valor de los Activos”(2009).
             
     p.mb-3 El importe total en libros de los inventarios pignorados en garantía de pasivos.
-
 
 
 

@@ -31,12 +31,13 @@
         .col-12.col-lg-6
             img(src="@/assets/curso/images/tema5/img_23.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
 
-    p.mb-3 A continuación, se muestra un ejercicio de reconocimiento de diferentes tipos de gastos.
+    p.mb-5 A continuación, se muestra un ejercicio de reconocimiento de diferentes tipos de gastos.
 
     LineaTiempoD.color-secundario.mb-5
-      .row.tarjeta-fondo-paso(numero="1" titulo="Causa nómina del Auxiliar Contable así: Básico: $1.000.000, Días trabajados: 30, H.E.D.O: 15. Descuento por libranza $100.000, Arl nivel: I")
+      .row.tarjeta-fondo-paso(numero="1" titulo="Causa nómina del Auxiliar Contable así: Básico:")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-12
+            p $1.000.000, Días trabajados: 30, H.E.D.O: 15. Descuento por libranza $100.000, Arl nivel: I
             .tabla-a.color-acento-contenido.mt-5
               table
                 thead
@@ -45,95 +46,95 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center 510506 Sueldo
                     td.text-center  1.000.000
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 510527 Auxilio transporte
                     td.text-center 1.000.000 
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center 510515 Horas extras
                     td.text-center 78.125 
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 237005 Aportes salud
                     td.text-center 
                     td.text-center 43.125 
-                  tr
+                  tr.th-3
                     td.text-center 238030 Aportes pensión
                     td.text-center 
                     td.text-center 43.125 
-                  tr
+                  tr.th-4
                     td.text-center 237030 Libranzas
                     td.text-center 
                     td.text-center 100.000 
-                  tr
+                  tr.th-3
                     td.text-center 250505 Salarios por pagar
                     td.text-center  
                     td.text-center 1.000.129 
-                  tr
+                  tr.th-4
                     td.text-center 510570 Aportes pensión
                     td.text-center 129.375 
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center 510568 Aportes ARL
                     td.text-center 5.628 
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 510572 Aportes CCF
                     td.text-center 43.125 
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center 238030 Aportes PENSIÓN
                     td.text-center 
                     td.text-center 129.375 
-                  tr
+                  tr.th-4
                     td.text-center 237006 Aportes ARL
                     td.text-center 
                     td.text-center 5.628 
-                  tr
+                  tr.th-3
                     td.text-center 237010 Aportes parafiscales
                     td.text-center  
                     td.text-center 43.125 
-                  tr
+                  tr.th-4
                     td.text-center 510530 Cesantías
                     td.text-center 98.825 
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center 510506 Sueldo
                     td.text-center  1.000.000
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 510533 Intereses cesantías
                     td.text-center 11.864 
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center 510536 Prima servicios
                     td.text-center 98.825 
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 510539 Vacaciones
                     td.text-center 49.472 
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center 251010 Cesantías
                     td.text-center 
                     td.text-center 98.825 
-                  tr
+                  tr.th-4
                     td.text-center 251515 Intereses cesantías
                     td.text-center 
                     td.text-center 11.864 
-                  tr
+                  tr.th-3
                     td.text-center 252020 Prima servicios
                     td.text-center  
                     td.text-center 98.825 
-                  tr
+                  tr.th-4
                     td.text-center 252525 Vacaciones
                     td.text-center 
                     td.text-center 49.472 
-                  tr
+                  tr.th-3
                     td.text-center <b>SUMAS IGUALES</b>
                     td.text-center <b>1.623.493 </b>
                     td.text-center <b>1.623.493 </b>
@@ -150,19 +151,19 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center 511030 Asesoría jurídica
                     td.text-center 1.500.000 
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 236515 Retefuente honorarios
                     td.text-center  
                     td.text-center 150.000 
-                  tr
+                  tr.th-3
                     td.text-center 233525 Honorarios
                     td.text-center 
                     td.text-center 1.350.000 
-                  tr
+                  tr.th-4
                     td.text-center <b>SUMAS IGUALES</b>
                     td.text-center <b>1.500.000</b>
                     td.text-center <b>1.500.000</b>
@@ -178,19 +179,19 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center 511505 Industria y comercio
                     td.text-center 1.850.000 
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 135518 ICA Retenido
                     td.text-center  
                     td.text-center 620.000 
-                  tr
+                  tr.th-3
                     td.text-center 241205 Impuesto ICA
                     td.text-center 
                     td.text-center 1.230.000 
-                  tr
+                  tr.th-4
                     td.text-center <b>SUMAS IGUALES</b>
                     td.text-center <b>1.850.000 </b>
                     td.text-center <b>1.850.000 </b>
@@ -207,23 +208,23 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center 512015 Maquinaria y equipo
                     td.text-center 2.000.000 
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 236525 Retefuente servicios
                     td.text-center  
                     td.text-center 80.000  
-                  tr
+                  tr.th-3
                     td.text-center 236805 Reteica servicios
                     td.text-center 
                     td.text-center 20.000 
-                  tr
+                  tr.th-4
                     td.text-center 233540 Arrendamientos
                     td.text-center 
                     td.text-center 1.900.000 
-                  tr
+                  tr.th-3
                     td.text-center <b>SUMAS IGUALES</b>
                     td.text-center <b>2.000.000</b>
                     td.text-center <b>2.000.000</b>
@@ -240,19 +241,19 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center 513550 Transportes fletes
                     td.text-center 1.000.000
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 236525 Retefuente servicios
                     td.text-center  
                     td.text-center 10.000
-                  tr
+                  tr.th-3
                     td.text-center 233545 Transportes fletes
                     td.text-center 
                     td.text-center 990.000
-                  tr
+                  tr.th-4
                     td.text-center <b>SUMAS IGUALES</b>
                     td.text-center <b>1.000.000</b>
                     td.text-center <b>1.000.000</b>
@@ -269,23 +270,23 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center 514525 Equipos computación
                     td.text-center 500.000
                     td.text-ccenter
-                  tr
+                  tr.th-4
                     td.text-center 236525 Retefuente servicios
                     td.text-center  
                     td.text-center 30.000
-                  tr
+                  tr.th-3
                     td.text-center 236805 Reteica servicios
                     td.text-center 
                     td.text-center 5.000
-                  tr
+                  tr.th-4
                     td.text-center 233535 Servicio mantenimiento
                     td.text-center 
                     td.text-center 465.000
-                  tr
+                  tr.th-3
                     td.text-center <b>SUMAS IGUALES</b>
                     td.text-center <b>500.000</b>
                     td.text-center <b>500.000</b>
@@ -301,19 +302,19 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center 515595 Otros - peajes
                     td.text-center 350.000
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 110505 Caja general
                     td.text-center  150.000
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center 133015 Anticipo a trabajadores
                     td.text-center 
                     td.text-center 500.000
-                  tr
+                  tr.th-4
                     td.text-center <b>SUMAS IGUALES</b>
                     td.text-center <b>500.000</b>
                     td.text-center <b>500.000</b>
@@ -329,15 +330,15 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center 516020 Equipos de computo
                     td.text-center 208.333
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 159220 Depreciación Eq.computo
                     td.text-center  
                     td.text-center 208.333
-                  tr
+                  tr.th-3
                     td.text-center <b>SUMAS IGUALES</b>
                     td.text-center <b>208.333</b>
                     td.text-center <b>208.333</b>
@@ -354,23 +355,23 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center 513525 Acueducto y alcantarillado
                     td.text-center 60.000
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 519525 Elementos de aseo
                     td.text-center 50.000
                     td.text-center 
-                  tr
+                  tr.th-3
                     td.text-center 519530 Útiles papelería fotocopias
                     td.text-center 40.000
                     td.text-center 
-                  tr
+                  tr.th-4
                     td.text-center 111005 Bancos moneda nacional
                     td.text-center 
                     td.text-center 150.000
-                  tr
+                  tr.th-3
                     td.text-center <b>SUMAS IGUALES</b>
                     td.text-center <b>150.000</b>
                     td.text-center <b>150.000</b>
@@ -387,15 +388,15 @@
                     th DEBE
                     th HABER
                 tbody
-                  tr
+                  tr.th-3
                     td.text-center 520560 Publicidad, propaganda
                     td.text-center 450.000
                     td.text-center
-                  tr
+                  tr.th-4
                     td.text-center 111005 Bancos moneda nacional
                     td.text-center  
                     td.text-center 450.000
-                  tr
+                  tr.th-3
                     td.text-center <b>SUMAS IGUALES</b>
                     td.text-center <b>450.000</b>
                     td.text-center <b>450.000</b>
@@ -431,7 +432,7 @@
       .col-lg-8
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema5/ico_1.svg', alt="", style="width:100px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-tarjeta-1
             .p-2
               h2 Desglose por naturaleza de los gastos:
               p Según este método de clasificación los gastos se agrupan en el estado del resultado integral de acuerdo con su naturaleza (por ejemplo, depreciación, compras de materiales, costos de transporte. beneficios a los empleados y costos de publicidad) y no los redistribuirá entre las diferentes funciones dentro de la entidad. 
@@ -439,7 +440,7 @@
       .col-lg-8
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema5/ico_2.svg', alt="", style="width:100px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-tarjeta-1
             .p-2
               h2 Desglose por función de los gastos:
               p  Según este método de clasificación, los gastos se agruparán de acuerdo con su función como parte del Costo de las ventas o, por ejemplo, de los costos de actividades de distribución o administración. Como mínimo una entidad revelará, según este método, su costo de ventas de forma separada de otros gastos.
