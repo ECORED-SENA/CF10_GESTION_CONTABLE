@@ -60,24 +60,24 @@
     #t_4_2.titulo-segundo
       .h2 4.2 Manejo de cartera fiscal
       
-    p.mb-3 La cartera de clientes se genera a partir de las operaciones comerciales de venta cuando su forma de pago total o parcialmente no se otorga en el mismo momento y por el contrario esta ocurre en el futuro sobre se generan los correspondientes compromisos.
+    p La cartera de clientes se genera a partir de las operaciones comerciales de venta cuando su forma de pago total o parcialmente no se otorga en el mismo momento y por el contrario esta ocurre en el futuro sobre se generan los correspondientes compromisos.
 
-    p.mb-3 Por diferentes razones generales o particulares los clientes pueden incurrir en el no pago de los compromisos adquiridos en las operaciones comerciales de venta, lo que puede llevar a un deterioro de la cartera.
+    p Por diferentes razones generales o particulares los clientes pueden incurrir en el no pago de los compromisos adquiridos en las operaciones comerciales de venta, lo que puede llevar a un deterioro de la cartera.
 
 
-    .row.justify-content-center.align-items-center.mt-5
-        .col-12.col-lg-6
-              .h5 
-              p.mb-3 Cuando la cartera se deteriora, producto del no pago de los clientes, la empresa hará el correspondiente reconocimiento de la probable pérdida, en proporción al tiempo que transcurre sin obtener el recaudo.
+    .row.justify-content-center.align-items-center
+      .col-12.col-lg-6.order-2.order-lg-1
+        .h5 
+        p Cuando la cartera se deteriora, producto del no pago de los clientes, la empresa hará el correspondiente reconocimiento de la probable pérdida, en proporción al tiempo que transcurre sin obtener el recaudo.
 
-              p.mb-3 Fiscalmente el deterioro de la cartera es deducible del impuesto a la renta de conformidad con el artículo 145 del Estatuto Tributario (2013).
+        p Fiscalmente el deterioro de la cartera es deducible del impuesto a la renta de conformidad con el artículo 145 del Estatuto Tributario (2013).
 
-              p.mb-3 Si bien es cierto, el deterioro de cartera para fines contables se determina de acuerdo con la técnica contable y el grado de materialidad, en materia tributaria el deterioro de cartera se fija utilizando el método individual o el método general.
+        p Si bien es cierto, el deterioro de cartera para fines contables se determina de acuerdo con la técnica contable y el grado de materialidad, en materia tributaria el deterioro de cartera se fija utilizando el método individual o el método general.
 
-              p.mb-3 El método individual aplica sobre cada una de las ventas a crédito de forma individual. Para su aplicación se toma cada factura de venta y aquellas que tengan más  de un año de vencidas se les aplican un deterioro del 33% anual, de manera que en tres años se pueden provisionar totalmente si fuera necesario.
-        
-        .col-12.col-lg-6
-            img(src="@/assets/curso/images/tema4/img_19.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
+        p El método individual aplica sobre cada una de las ventas a crédito de forma individual. Para su aplicación se toma cada factura de venta y aquellas que tengan más  de un año de vencidas se les aplican un deterioro del 33% anual, de manera que en tres años se pueden provisionar totalmente si fuera necesario.
+      
+      .col-12.col-lg-6.order-1.order-lg-2
+        img(src="@/assets/curso/images/tema4/img_19.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
 
     .row.justify-content-center.align-items-center.mt-5
         .col-12.col-lg-12
@@ -88,49 +88,50 @@
     #t_4_3.titulo-segundo
       .h2 4.3  Deterioro de cuentas por cobrar
 
-    p.mb-3 De acuerdo con lo establecido por la NIIF 9 (2009), una entidad reconocerá una corrección de valor por pérdidas crediticias esperadas sobre un activo financiero a los que se les aplica los requerimientos de deterioro de valor.
+    p De acuerdo con lo establecido por la NIIF 9 (2009), una entidad reconocerá una corrección de valor por pérdidas crediticias esperadas sobre un activo financiero a los que se les aplica los requerimientos de deterioro de valor.
 
-    p.mb-3 Una entidad aplicará los requerimientos de deterioro de valor para el reconocimiento y medición de una corrección de valor por pérdidas a activos financieros que se midan a valor razonable con cambios en otro resultado integral.
+    p Una entidad aplicará los requerimientos de deterioro de valor para el reconocimiento y medición de una corrección de valor por pérdidas a activos financieros que se midan a valor razonable con cambios en otro resultado integral.    
 
-    .row.justify-content-center.align-items-center.mt-5
-        .col-12.col-lg-6
-              .h5 
-              p.mb-3 Para compromisos de préstamo y contratos de garantía financiera, la fecha en que la entidad pasa a ser una parte del compromiso irrevocable deberá considerarse la fecha del reconocimiento inicial a efectos de aplicar los requerimientos de deterioro de valor.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-6        
+        p.mb-3 Para compromisos de préstamo y contratos de garantía financiera, la fecha en que la entidad pasa a ser una parte del compromiso irrevocable deberá considerarse la fecha del reconocimiento inicial a efectos de aplicar los requerimientos de deterioro de valor.
 
-              p.mb-3 Una entidad reconocerá en el resultado del período, como una ganancia o pérdida por deterioro de valor, el importe de las pérdidas crediticias esperadas en que se requiere que sea ajustada la corrección de valor por pérdidas en la fecha de presentación para reflejar el importe que se exige reconocer de acuerdo con esta Norma.
+        p.mb-3 Una entidad reconocerá en el resultado del período, como una ganancia o pérdida por deterioro de valor, el importe de las pérdidas crediticias esperadas en que se requiere que sea ajustada la corrección de valor por pérdidas en la fecha de presentación para reflejar el importe que se exige reconocer de acuerdo con esta Norma.
 
-              p.mb-3 Con Fundamento en la sección 11 de la NIIF para Pymes (2009), referente a los instrumentos financieros, el deterioro de los activos financieros y en particular la cartera de clientes se debe reconocer mediante la evidencia objetiva que reúnan los preparadores de información financiera a partir de la evaluación que se haga de las cuentas por cobrar.
-        .col-12.col-lg-6.mb-3
-            img(src="@/assets/curso/images/tema4/img_21.svg" alt="", style="width:350px; display:block; margin: 0 auto;")
+        p.mb-3 Con Fundamento en la sección 11 de la NIIF para Pymes (2009), referente a los instrumentos financieros, el deterioro de los activos financieros y en particular la cartera de clientes se debe reconocer mediante la evidencia objetiva que reúnan los preparadores de información financiera a partir de la evaluación que se haga de las cuentas por cobrar.
+      .col-12.col-lg-6.mb-3
+        img(src="@/assets/curso/images/tema4/img_21.svg" alt="", style="width:350px; display:block; margin: 0 auto;")
+
+    p.mb-5 La evidencia objetiva de que una cuenta por cobrar se ha deteriorado incluye información respecto a los siguientes sucesos que causan la pérdida: 
     
-    .jumbotron-blue.mt-3.p-4
+    .jumbotron-blue.p-4.mb-5
       .col-sm.mt-3   
-          ul.lista-ul--color
-            li 
-              i.fas.fa-check
-              | Dificultades financieras significativas del emisor o del obligado.
-            li
-              i.fas.fa-check
-              | Infracciones del contrato, tales como incumplimientos o moras en el pago de los intereses o del principal.
-            li
-              i.fas.fa-check
-              | El acreedor, por razones económicas o legales relacionadas con dificultades financieras del deudor, otorga a éste concesiones que no le habría otorgado en otras circunstancias. 
-            li 
-              i.fas.fa-check
-              | Pase a ser probable que el deudor entre en quiebra o en otra forma de reorganización financiera.
-            li 
-              i.fas.fa-check
-              | Los datos observables que indican que ha habido una disminución medible en los flujos futuros estimados de efectivo de un grupo de activos financieros desde su reconocimiento inicial, aunque la disminución no pueda todavía identificarse con activos financieros individuales incluidos en el grupo, tales como condiciones económicas adversas nacionales o locales o cambios adversos en las condiciones del sector industrial.
+        ul.lista-ul--color
+          li 
+            i.fas.fa-check
+            | Dificultades financieras significativas del emisor o del obligado.
+          li
+            i.fas.fa-check
+            | Infracciones del contrato, tales como incumplimientos o moras en el pago de los intereses o del principal.
+          li
+            i.fas.fa-check
+            | El acreedor, por razones económicas o legales relacionadas con dificultades financieras del deudor, otorga a éste concesiones que no le habría otorgado en otras circunstancias. 
+          li 
+            i.fas.fa-check
+            | Pase a ser probable que el deudor entre en quiebra o en otra forma de reorganización financiera.
+          li 
+            i.fas.fa-check
+            | Los datos observables que indican que ha habido una disminución medible en los flujos futuros estimados de efectivo de un grupo de activos financieros desde su reconocimiento inicial, aunque la disminución no pueda todavía identificarse con activos financieros individuales incluidos en el grupo, tales como condiciones económicas adversas nacionales o locales o cambios adversos en las condiciones del sector industrial.
 
-    p.mt-5.mb-3 La empresa debe hacer un seguimiento permanente a sus deudores y evidenciar si estos presentan algunas de las dificultades económicas mencionadas, que les impidan cumplir con sus obligaciones adquiridas y concluir si es susceptible de entrar en un impago.
+    p La empresa debe hacer un seguimiento permanente a sus deudores y evidenciar si estos presentan algunas de las dificultades económicas mencionadas, que les impidan cumplir con sus obligaciones adquiridas y concluir si es susceptible de entrar en un impago.
 
-    p.mb-3 A partir de la conclusión y evaluación, se debe hacer el reconocimiento de deterioro bajo la medición realizada por los preparadores de la información, pues no se puede olvidar que la norma pretende que no se sobrevalue el activo.
+    p A partir de la conclusión y evaluación, se debe hacer el reconocimiento de deterioro bajo la medición realizada por los preparadores de la información, pues no se puede olvidar que la norma pretende que no se sobrevalue el activo.
 
-    p.mb-3 Pese a que la norma no establece una metodología para el cálculo del deterioro, un buen modelo puede ser el análisis al comportamiento histórico y establecer el ponderado de la proporción de las pérdidas de la cartera que ha ingresado en mora.
+    p Pese a que la norma no establece una metodología para el cálculo del deterioro, un buen modelo puede ser el análisis al comportamiento histórico y establecer el ponderado de la proporción de las pérdidas de la cartera que ha ingresado en mora.
 
-    p.mb-3 A continuación, se muestra un ejercicio de reconocimiento del deterioro de la cartera:
+    p.mb-5 A continuación, se muestra un ejercicio de reconocimiento del deterioro de la cartera:
 
-    p.mb-3 Ejemplo: La empresa establece como política contable medir el deterioro de su cartera por el método de provisión general y por tanto la presenta por vencimientos, así:
+    p.mb-3 #[strong Ejemplo.] <br>La empresa establece como política contable medir el deterioro de su cartera por el método de provisión general y por tanto la presenta por vencimientos, así:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10
@@ -167,7 +168,7 @@
                     td.text-center <b>TOTAL CARTERA</b>
                     td.text-center <b>72.000.000</b>
 
-    p.mb-5 Realiza las siguientes transacciones           
+    p.mb-4 Realiza las siguientes transacciones:           
     
     .row.justify-content-center.align-items-center.mt-3.mb-3
         .col
@@ -191,45 +192,44 @@
                     span 4
                   | Se ajusta el deterioro
 
-    p.mb-3 La medición se calcula así:
-
+    p.mb-5 La medición se calcula así:
   
     .row.justify-content-center.align-items-center.mb-5
       .col-10
-            .tabla-a.color-acento-contenido.mt-5
-              table
-                thead
-                  tr.th-1.text-center
-                    th CONCEPTO
-                    th DÍAS
-                    th VALOR
-                    th % PRO
-                    th PROVISIÓN
-                tbody
-                  tr.th-3
-                    td.text-center Vencida
-                    td.text-center 91-180
-                    td.text-center 4.000.000
-                    td.text-center 5%
-                    td.text-center 200.000
-                  tr.th-4
-                    td.text-center Vencida
-                    td.text-center 181-360
-                    td.text-center 5.500.000
-                    td.text-center 10%
-                    td.text-center 550.000
-                  tr.th-3
-                    td.text-center Vencida
-                    td.text-center 360
-                    td.text-center 2.000.000
-                    td.text-center 15%
-                    td.text-center 300.000
-                  tr.th-4
-                    td.text-center 
-                    td.text-center 
-                    td.text-center <b>11.500.000</b>
-                    td.text-center 
-                    td.text-center <b>1.050.000</b>
+        .tabla-a.color-acento-contenido
+          table
+            thead
+              tr.th-1.text-center
+                th CONCEPTO
+                th DÍAS
+                th VALOR
+                th % PRO
+                th PROVISIÓN
+            tbody
+              tr.th-3
+                td.text-center Vencida
+                td.text-center 91-180
+                td.text-center 4.000.000
+                td.text-center 5%
+                td.text-center 200.000
+              tr.th-4
+                td.text-center Vencida
+                td.text-center 181-360
+                td.text-center 5.500.000
+                td.text-center 10%
+                td.text-center 550.000
+              tr.th-3
+                td.text-center Vencida
+                td.text-center 360
+                td.text-center 2.000.000
+                td.text-center 15%
+                td.text-center 300.000
+              tr.th-4
+                td.text-center 
+                td.text-center 
+                td.text-center <b>11.500.000</b>
+                td.text-center 
+                td.text-center <b>1.050.000</b>
               
     p.mb-3 El reconocimiento contable quedará así:
 
