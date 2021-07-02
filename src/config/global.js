@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Registro de compras y ventas',
     descripcionCurso:
-      'Este componente formativo tiene como objetivo afianzar los conocimientos de identificación y registro contable de las operaciones de compra y venta de inventarios, aplicando la normatividad vigente.',
+      'Este componente formativo tiene como objetivo afianzar los conocimientos de identificación y registro contable de las operaciones de compra y venta de inventarios, aplicando la normatividad vigente, así mismo, permite reconocer y aplicar los sistemas de inventarios, sus correspondientes métodos de valuación; al igual que los instrumentos financieros utilizados en operaciones de compra y venta de inventarios, con la respectiva carga impositiva, de acuerdo con la normatividad y políticas contables vigentes.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
   },
@@ -317,90 +317,117 @@ export default {
         'Operación que se caracteriza por la entrega del bien al cliente, transfiriéndole beneficios y riesgos, que generan ingresos para la empresa.',
     },
   ],
-  complementario: [
-    {
-      texto: '',
-      tipo: '',
-      link: '',
-    },
-  ],
+  //complementario: [
+  //{
+  //texto: '',
+  //tipo: '',
+  //link: '',
+  //},
+  //],
   creditos: {
-    liderEquipo: {
-      nombre: 'Maria Camila Garcia Santamaria',
-      cargo: 'Líder del equipo',
-    },
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila Garcia Santamaria',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      {
-        nombre: ['Angy Fernanda Salazar', 'Claudia Briceida Coy Coy'],
-        cargo: 'Instructor',
-        centro: 'Centro de Contabilidad',
-        regional: '',
-      },
-
       {
         nombre: 'Maryuri Agudelo Franco',
         cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Diseño y Metrología',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte Organizacional',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Luis Zenen Arévalo Mantilla'],
+        nombre: 'Luis Zenen Arévalo Mantilla',
         cargo: 'Diseño web',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: [
-          'Adriana Marcela Suárez Eljure',
-          'Gilberto Junior Rodriguez',
-          'Rodriguez,José Jaime',
-          'Luis Tang Pinzón',
-          'Adriana Ariza Nelson Vera',
-          'Zuleidy Maria Ruiz Torres',
-        ],
+        nombre: 'Gilberto Junior Rodriguez Rodriguez ',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        regional: 'Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jessica Moreno Realpe ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Camila Ovalle',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ricardo Vásquez Arroyave',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Víctor Raúl Cárdenas Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Gustavo Adolfo Marún Suárez',
         cargo: 'Desarrollo Front-End',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Jhana Johanna Bustillo Ardila',
-        cargo: ['Validación de diseño y contenido'],
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: ['Validación y vinculación en plataforma LMS'],
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

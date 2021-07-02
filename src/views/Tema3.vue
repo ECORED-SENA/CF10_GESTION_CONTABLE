@@ -52,7 +52,7 @@
     Separador 
 
     #t_3_2.titulo-segundo
-      .h2 3.2 Medición, reconocimiento con impuestos y retenciones.
+      .h2 3.2 Medición, reconocimiento con impuestos y retenciones
 
     p La entidad medirá los ingresos de actividades ordinarias al valor razonable de la contraprestación recibida o por recibir, el cual tiene en cuenta el importe de descuentos comerciales, descuentos por pronto pago y rebajas por volumen de ventas que sean practicados por la entidad.
 
@@ -138,7 +138,7 @@
                 td.text-center 12.563.950 
               tr.th-3
                 td.text-center AC
-                td.text-center Efectivo
+                td.text-center Efectivo y equivalentes al efectivo
                 td.text-center 12.563.950 
                 td.text-center 
               tr.th-4
