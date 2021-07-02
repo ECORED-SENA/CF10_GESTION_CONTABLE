@@ -47,7 +47,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Presentación y revelación.',
+            titulo: 'Presentación y revelación',
             hash: 't_1_4',
           },
         ],
@@ -62,7 +62,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Política contable',
             hash: 't_2_1',
           },
           {

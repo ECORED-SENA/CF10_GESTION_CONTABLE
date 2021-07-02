@@ -15,7 +15,7 @@
 
     separador
 
-    .titulo-segundo
+    #t_2_1.titulo-segundo
       h2 2.1 Política contable
 
     p.mb-3 Dentro del manual de políticas contables se deben establecer los lineamientos para la medición, reconocimiento, presentación y revelación de las cuentas comerciales por pagar a proveedores como un instrumento financiero.
@@ -24,7 +24,7 @@
 
     p.mb-3 Un cambio en una estimación contable es un ajuste en el importe en libros de un activo o de un pasivo, o en el importe del consumo periódico de un activo, que se produce tras la evaluación de la situación actual del elemento, así como de los beneficios futuros esperados y de las obligaciones asociadas con los activos y pasivos correspondientes. 
 
-    p.mb-3La aplicación prospectiva de un cambio en una política contable y del reconocimiento del efecto de un cambio en una estimación contable consiste, respectivamente, en: 
+    p.mb-3La La aplicación prospectiva de un cambio en una política contable y del reconocimiento del efecto de un cambio en una estimación contable consiste, respectivamente, en: 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-7.col-lg-4.mb-4.mb-lg-0

@@ -35,16 +35,14 @@
             | En las NIIF se establecen políticas contables sobre las que el IASB (International Accounting Standards Board (Junta de Normas Internacionales de Contabilidad) ha llegado a la conclusión de que dan lugar a estados financieros con información relevante y fiable sobre las transacciones. 
           li
             i.fas.fa-check
-            | Aportes a fondo de solidaridad pensional, el porcentaje depende del valor devengado y comienza desde 1 % para los trabajadores que devenguen en el periodo cuatro o más salarios mínimos legales vigentes. 
-          li 
-            i.fas.fa-check
-            | Las NIIF se acompañan de guías que ayudan a las entidades a aplicar sus requerimientos.
+            | Las NIIF se acompañan de guías que ayudan a las entidades a aplicar sus requerimientos. 
           li 
             i.fas.fa-check
             | En ausencia de una NIIF que sea aplicable específicamente a una transacción, la gerencia deberá usar su juicio en el desarrollo y aplicación de una política contable, a fin de suministrar información que sea: relevante, fiable, fidedigna, neutral, prudente y reflejen la esencia económica de las transacciones y no simplemente su forma legal.
           li 
             i.fas.fa-check
             | La gerencia se referirá a las fuentes para considerar su aplicabilidad; como los requerimientos de temas relacionados y las definiciones, reconocimiento y medición para los elementos de los estados financieros.
+         
                
       .col-lg-6.mb-5
         img(src="@/assets/curso/images/tema1/img_1.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
@@ -61,10 +59,7 @@
             | Deben ser considerados como activos poseídos para ser vendidos en el curso normal de la operación.
           li 
             i.fas.fa-check
-            | Identificados como elementos del proceso de producción con destino a ser vendido
-          li
-            i.fas.fa-check
-            | Aportes a fondo de solidaridad pensional, el porcentaje depende del valor devengado y comienza desde 1 % para los trabajadores que devenguen en el periodo cuatro o más salarios mínimos legales vigentes. 
+            | Identificados como elementos del proceso de producción con destino a ser vendido          
           li 
             i.fas.fa-check
             | Establecidos como materiales o suministros que serán consumidos en el proceso de producción o en la prestación de servicios. 
@@ -85,34 +80,30 @@
       .h2 1.2 Concepto, tipos de inventario, valuación de inventarios
 
     p.mb-3 De conformidad con la NIC 2, se definen los diferentes tipos de costos, de la siguiente manera:              
-    .jumbotron-blue.p-4
+    .jumbotron-blue.p-4.mb-5
       .row.justify-content-center.align-items-center.mt-5
-        .col-6.col-md-8.col-lg-6.mb-5
+        .col-lg-5.mb-4.mb-lg-0
           img(src="@/assets/curso/images/tema1/img_3.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
-        .col-12.col-md-8.col-lg-6
+        .col-lg-7
           .col-sm.mt-3
             ul.lista-ul--color
               li 
                 i.fas.fa-check
-                | Deben ser considerados como activos poseídos para ser vendidos en el curso normal de la operación.
+                | Los inventarios se medirán al costo o al valor neto realizable, según cual sea menor. 
               li 
                 i.fas.fa-check
-                | Identificados como elementos del proceso de producción con destino a ser vendido
+                | El costo de los inventarios comprenderá todos los costos derivados de su adquisición, transformación, así como otros costos en los que se haya incurrido para darles su condición y ubicación actuales. 
               li
                 i.fas.fa-check
-                | Establecidos como materiales o suministros que serán consumidos en el proceso de producción o en la prestación de servicios. 
+                | El costo de adquisición de los inventarios comprenderá el precio de compra, los aranceles de importación y otros impuestos (que no sean recuperables posteriormente de las autoridades fiscales) y transporte, manejo y otros costos directamente atribuibles a la adquisición de mercaderías, materiales y servicios. Los descuentos comerciales, las rebajas y otras partidas similares se deducirán para determinar el costo de adquisición. 
               li
                 i.fas.fa-check
-                | Valor neto realizable es el precio estimado de venta de un activo en el curso normal de la operación menos los costos estimados para terminar su producción y los necesarios para llevar a cabo la venta. 
+                | Los costos de transformación de los inventarios comprenderán a aquellos costos relacionados con las unidades de producción, tales como la materia prima directa, la mano de obra directa y los costos indirectos de producción. 
               li 
                 i.fas.fa-check
-                | Valor razonable es el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes del mercado en la fecha de la medición. 
-              li 
-                i.fas.fa-check
-                | Entre los inventarios también se incluyen los bienes comprados y almacenados para su reventa, entre los que se encuentran, por ejemplo, las mercaderías adquiridas por un minorista para la reventa a sus clientes, y también los terrenos u otras propiedades de inversión que se tienen para ser vendidos a terceros. 
-              li 
-                i.fas.fa-check
-                | También son inventarios los productos terminados o en curso de fabricación mantenidos por la entidad, así como los materiales y suministros para ser usados en el proceso productivo.
+                | Son costos indirectos fijos de producción los que permanecen relativamente constantes, con independencia del volumen de producción, tales como la depreciación y mantenimiento de los edificios y equipos de la fábrica y los activos por derecho de uso utilizados en el proceso de producción.         
+
+    p De acuerdo con la sección 13 de NIIF para Pymes (2009), los inventarios son activos:
 
     .row.justify-content-center.align-items-center.my-5
       .col-12
@@ -140,10 +131,7 @@
             .lista-ol--cuadro__vineta
               span 4
             | El kardex solo mueve unidades sin costos.
-          li 
-            .lista-ol--cuadro__vineta
-              span 5
-            | Item lista ordenada 5.
+         
     
         p.my-4 El sistema de inventarios permanente tiene las siguientes características:
 
@@ -155,18 +143,14 @@
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | Costos de venta y existencia se hallan en cualquier momento.
+            | Costos de venta y existencia se hallan en cualquier momento.         
           li 
             .lista-ol--cuadro__vineta
               span 3
-            | Por sentencia ejecutoriada.
-          li 
-            .lista-ol--cuadro__vineta
-              span 4
             | Se debe elegir uno entre varios métodos de valuación “Promedio ponderado, Primeras en Entrar Primeras en Salir.
           li 
             .lista-ol--cuadro__vineta
-              span 5
+              span 4
             | El kardex mueve tanto unidades como costos.
           
       .col-lg-7.col-xl-6
@@ -199,7 +183,7 @@
                 td(width='85').text-center Devuelve 10 camisetas de la compra anterior
               tr
                 td(width='15').text-center  4
-                td(width='85').text-center Vende 190 camisetas a $15.000 c/u
+                td(width='85').text-center Vende 190 camisetas a #[span(style="color:red;") $15.000 c/u] 
               tr
                 td(width='15').text-center  5
                 td(width='85').text-center Le devuelven 10 camisetas de la venta anterior
@@ -208,7 +192,7 @@
                 td(width='85').text-center Compra 90 camisetas a $6.500 c/u
               tr
                 td(width='15').text-center  7
-                td(width='85').text-center Vende 100 camisetas a $15.000 c/u
+                td(width='85').text-center Vende 100 camisetas a #[span(style="color:red;") $15.000 c/u] 
 
     p.my-5 El kardex quedará así:
 
@@ -909,9 +893,7 @@
         img(src="@/assets/curso/images/tema1/img_9.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
 
     .cajon.color-custom.p-4.mb-4
-      p.mb-0 De acuerdo con la sección 13 de NIIF para Pymes (2009), una entidad medirá los inventarios al importe menor entre el costo y el precio de venta estimado menos los costos de terminación y venta. Una entidad incluirá en el costo de los inventarios todos los costos de compra, costos de transformación y otros costos incurridos para darles su condición y ubicación actuales.Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
-
-    p El reconocimiento de los inventarios consiste en el registro contable de los mismos para ser incorporado en los estados financieros.
+      p.mb-0 De acuerdo con la sección 13 de NIIF para Pymes (2009), una entidad medirá los inventarios al importe menor entre el costo y el precio de venta estimado menos los costos de terminación y venta. Una entidad incluirá en el costo de los inventarios todos los costos de compra, costos de transformación y otros costos incurridos para darles su condición y ubicación actuales.Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.  
 
     p De acuerdo con la sección 13 de NIIF para Pymes (2009), cuando los inventarios se vendan, la entidad reconocerá el importe en libros de estos como un costo (gasto) en el período en el que se reconozcan los correspondientes ingresos de actividades ordinarias.
 
@@ -1077,8 +1059,18 @@
                 tr.th-4
                   td.text-center AC
                   td.text-center Clientes
+                  td.text-center 10.944.328
+                  td.text-center  
+                tr.th-4
                   td.text-center 
-                  td.text-center 4.377.731 
+                  td.text-center Cuentas por cobrar
+                  td.text-center 
+                  td.text-center  
+                tr.th-4
+                  td.text-center AC
+                  td.text-center Clientes
+                  td.text-center 
+                  td.text-center 4.377.731
                 tr.th-3
                   td.text-center 
                   td.text-center Efectivo y equivalentes 
@@ -1127,6 +1119,11 @@
                   td.text-center Anticipo Retefuente 
                   td.text-center
                   td.text-center  
+                tr.th-4
+                  td.text-center AC
+                  td.text-center 2.5% 
+                  td.text-center
+                  td.text-center  21.250
                 tr.th-4
                   td.text-center AC
                   td.text-center Anticipo Reteiva 15%

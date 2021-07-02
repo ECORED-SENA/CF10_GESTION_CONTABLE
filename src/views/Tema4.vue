@@ -92,14 +92,14 @@
 
     p Una entidad aplicará los requerimientos de deterioro de valor para el reconocimiento y medición de una corrección de valor por pérdidas a activos financieros que se midan a valor razonable con cambios en otro resultado integral.    
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-6        
         p.mb-3 Para compromisos de préstamo y contratos de garantía financiera, la fecha en que la entidad pasa a ser una parte del compromiso irrevocable deberá considerarse la fecha del reconocimiento inicial a efectos de aplicar los requerimientos de deterioro de valor.
 
         p.mb-3 Una entidad reconocerá en el resultado del período, como una ganancia o pérdida por deterioro de valor, el importe de las pérdidas crediticias esperadas en que se requiere que sea ajustada la corrección de valor por pérdidas en la fecha de presentación para reflejar el importe que se exige reconocer de acuerdo con esta Norma.
 
         p.mb-3 Con Fundamento en la sección 11 de la NIIF para Pymes (2009), referente a los instrumentos financieros, el deterioro de los activos financieros y en particular la cartera de clientes se debe reconocer mediante la evidencia objetiva que reúnan los preparadores de información financiera a partir de la evaluación que se haga de las cuentas por cobrar.
-      .col-12.col-lg-6.mb-3
+      .col-12.col-lg-6.mb-3.mb-lg-0
         img(src="@/assets/curso/images/tema4/img_21.svg" alt="", style="width:350px; display:block; margin: 0 auto;")
 
     p.mb-5 La evidencia objetiva de que una cuenta por cobrar se ha deteriorado incluye información respecto a los siguientes sucesos que causan la pérdida: 
@@ -230,6 +230,53 @@
                 td.text-center <b>11.500.000</b>
                 td.text-center 
                 td.text-center <b>1.050.000</b>
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10
+        .tabla-a.color-acento-contenido
+          table
+            thead
+              tr.th-1.text-center
+                th CONCEPTO
+                th DÍAS
+                th VALOR
+                th % PRO
+                th PROVISIÓN
+            tbody
+              tr.th-3
+                td.text-center Vencida
+                td.text-center 91-180
+                td.text-center 4.000.000
+                td.text-center 5%
+                td.text-center 200.000
+              tr.th-4
+                td.text-center Vencida
+                td.text-center 181-360
+                td.text-center 5.500.000
+                td.text-center 10%
+                td.text-center 550.000
+              tr.th-3
+                td.text-center Vencida
+                td.text-center 360
+                td.text-center 1.800.000
+                td.text-center 15%
+                td.text-center 270.000
+              tr.th-4
+                td.text-center 
+                td.text-center 
+                td.text-center <b>11.300.000</b>
+                td.text-center 
+                td.text-center <b>1.020.000</b>
+              tr.th-3
+                td.text-center 
+                td.text-center 
+                td(colspan="2").text-center <b>PROVISIÓN ANTERIOR</b>                 
+                td.text-center <b>1.050.000</b>
+              tr.th-4
+                td.text-center 
+                td.text-center 
+                td(colspan="2").text-center <b>RECUPERACIÓN PROVISIÓN</b>                 
+                td.text-center <b>30.000</b>
               
     p.mb-3 El reconocimiento contable quedará así:
 

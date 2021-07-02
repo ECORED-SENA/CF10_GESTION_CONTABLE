@@ -42,7 +42,7 @@
                 td.text-center
               tr.th-4
                 td.text-center 510527 Auxilio transporte
-                td.text-center 1.000.000 
+                td.text-center 108.254
                 td.text-center 
               tr.th-3
                 td.text-center 510515 Horas extras
@@ -91,40 +91,36 @@
               tr.th-4
                 td.text-center 510530 Cesantías
                 td.text-center 98.825 
-                td.text-center 
+                td.text-center              
               tr.th-3
-                td.text-center 510506 Sueldo
-                td.text-center  1.000.000
-                td.text-center
-              tr.th-4
                 td.text-center 510533 Intereses cesantías
                 td.text-center 11.864 
                 td.text-center 
-              tr.th-3
+              tr.th-4
                 td.text-center 510536 Prima servicios
                 td.text-center 98.825 
                 td.text-center
-              tr.th-4
+              tr.th-3
                 td.text-center 510539 Vacaciones
                 td.text-center 49.472 
                 td.text-center 
-              tr.th-3
+              tr.th-4
                 td.text-center 251010 Cesantías
                 td.text-center 
                 td.text-center 98.825 
-              tr.th-4
+              tr.th-3
                 td.text-center 251515 Intereses cesantías
                 td.text-center 
                 td.text-center 11.864 
-              tr.th-3
+              tr.th-4
                 td.text-center 252020 Prima servicios
                 td.text-center  
                 td.text-center 98.825 
-              tr.th-4
+              tr.th-3
                 td.text-center 252525 Vacaciones
                 td.text-center 
                 td.text-center 49.472 
-              tr.th-3
+              tr.th-4
                 td.text-center <b>SUMAS IGUALES</b>
                 td.text-center <b>1.623.493 </b>
                 td.text-center <b>1.623.493 </b>
@@ -463,7 +459,7 @@
           img(src='@/assets/curso/images/tema5/ico_1.svg', alt="", style="width:100px; display:block; margin:0 auto;")
           .tarjeta.color-tarjeta-1
             .p-4
-              h4 Desglose por naturaleza de los gastos:
+              h4 Desglose por naturaleza de los gastos
               p Según este método de clasificación los gastos se agrupan en el estado del resultado integral de acuerdo con su naturaleza (por ejemplo, depreciación, compras de materiales, costos de transporte. beneficios a los empleados y costos de publicidad) y no los redistribuirá entre las diferentes funciones dentro de la entidad. 
 
       .col-lg-8
@@ -471,7 +467,7 @@
           img(src='@/assets/curso/images/tema5/ico_2.svg', alt="", style="width:100px; display:block; margin:0 auto;")
           .tarjeta.color-tarjeta-1
             .p-4
-              h4 Desglose por función de los gastos:
+              h4 Desglose por función de los gastos
               p  Según este método de clasificación, los gastos se agruparán de acuerdo con su función como parte del Costo de las ventas o, por ejemplo, de los costos de actividades de distribución o administración. Como mínimo una entidad revelará, según este método, su costo de ventas de forma separada de otros gastos.
 
     p Por otro lado, la entidad revelará en notas a los estados financieros las políticas contables adoptadas para el reconocimiento de los gastos incurridos para actividades ordinarias, mostrándolos de forma separada de aquellos gastos incurridos de forma extraordinaria.

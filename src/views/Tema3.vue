@@ -138,8 +138,8 @@
                 td.text-center 12.563.950 
               tr.th-3
                 td.text-center AC
+                td.text-center Efectivo
                 td.text-center 12.563.950 
-                td.text-center 
                 td.text-center 
               tr.th-4
                 td.text-center.color-text GA
