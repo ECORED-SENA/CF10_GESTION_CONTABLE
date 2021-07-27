@@ -178,11 +178,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
+      /*{
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
+      },*/
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -193,7 +193,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Actualícese (2018) Decreto 2483 de 2018: Anexo Técnico Compilatorio No.2 de la Normas Internacionales de Información Financiera NIIF para Pymes Grupo 2: Secciones 2, 5, 11, 13 y 27 ',
+        'Actualícese (2018) Decreto 2483 de 2018: Anexo Técnico Compilatorio No.2 de las Normas Internacionales de Información Financiera NIIF para Pymes Grupo 2: Secciones 2, 5, 11, 13 y 27 ',
       link:
         'https://cdn.actualicese.com/normatividad/2018/Decretos/Anexo-2-D2483-18.pdf',
     },
@@ -297,7 +297,7 @@ export default {
         'Activos, bienes corporales, destinados para la venta en la operación de comercialización, al igual que aquellos insumos y materiales utilizados en el proceso productivo para las empresas industriales.',
     },
     {
-      termino: 'Kardex',
+      termino: 'kárdex',
       significado:
         'Conocido como auxiliar de inventarios o almacén, es un documento que por cada referencia de inventario muestra cronológicamente sus movimientos de entradas, salidas y saldos, tanto de unidades como de costos unitarios y totales.',
     },

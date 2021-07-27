@@ -21,10 +21,10 @@
       .col
         p #[strong Causa nómina del Auxiliar Contable así:]        
         ul
-          li Básico: $1.000.000
+          li Básico: $ 1.000.000
           li Días trabajados: 30
           li H.E.D.O: 15
-          li Descuento por libranza $100.000
+          li Descuento por libranza $ 100.000
           li Arl nivel: I
 
       .col-12 
@@ -131,7 +131,7 @@
       .col
         p #[strong Causa honorarios de Abogado por:]        
         ul
-          li $1.500.000, menos retefuente 10% 
+          li $ 1.500.000, menos retefuente 10 % 
       .col-12        
         table
           thead
@@ -163,7 +163,7 @@
       .col
         p #[strong Causa el impuesto de Industria y Comercio por:]        
         ul
-          li $1.850.000, menos retenciones que le practicaron por $620.000.        
+          li $ 1.850.000, menos retenciones que le practicaron por $ 620.000.        
       .col-12
         .tabla-a.color-acento-contenido
           table
@@ -196,7 +196,7 @@
       .col
         p #[strong Causa alquiler de equipos industriales por:]        
         ul
-          li $2.000.000, menos retefuente 4% y reteica 1%     
+          li $ 2.000.000, menos retefuente 4 % y reteica 1 %     
       .col-12
         .tabla-a.color-acento-contenido
           table
@@ -233,7 +233,7 @@
       .col
         p #[strong Paga fletes por:]        
         ul
-          li Transportes de materiales por $1.000.000, menos     retefuente 1%    
+          li Transportes de materiales por $ 1.000.000, menos     retefuente 1 %    
       .col-12
         .tabla-a.color-acento-contenido
           table
@@ -266,7 +266,7 @@
       .col
         p #[strong Causa mantenimiento de equipos de cómputo por:]        
         ul
-          li $500.000, menos retefuente 6% y reteica 1%      
+          li $ 500.000, menos retefuente 6 % y reteica 1 %      
       .col-12
         .tabla-a.color-acento-contenido
           table
@@ -303,7 +303,7 @@
       .col
         p #[strong Legaliza anticipo para peajes por:]        
         ul
-          li $500.000, soportados en $350.000      
+          li $ 500.000, soportados en $ 350.000      
       .col-12
         .tabla-a.color-acento-contenido
           table
@@ -336,7 +336,7 @@
       .col
         p #[strong Deprecia el primer mes por:]        
         ul
-          li línea recta, computadores adquiridos en $5.000.000; con un tiempo estimado de vida útil de 2 años, sin cuota de salvamento.     
+          li línea recta, computadores adquiridos en $ 5.000.000; con un tiempo estimado de vida útil de 2 años, sin cuota de salvamento.     
       .col-12
         .tabla-a.color-acento-contenido
           table
@@ -365,9 +365,9 @@
       .col
         p #[strong Reembolsa la caja menor, así:]        
         ul
-          li $60.000 en Servicio de acueducto.
-          li $50.000 en elementos de aseo. 
-          li $40.000 en papelería.
+          li $ 60.000 en Servicio de acueducto.
+          li $ 50.000 en elementos de aseo. 
+          li $ 40.000 en papelería.
 
       .col-12
         .tabla-a.color-acento-contenido
@@ -403,7 +403,7 @@
       .col-auto
         span.bigNumber 10
       .col
-        p #[strong Paga publicidad radial por $450.000]         
+        p #[strong Paga publicidad radial por $ 450.000]         
       .col-12
         .tabla-a.color-acento-contenido.mt-5
           table
@@ -460,7 +460,7 @@
           .tarjeta.color-tarjeta-1
             .p-4
               h4 Desglose por naturaleza de los gastos
-              p Según este método de clasificación los gastos se agrupan en el estado del resultado integral de acuerdo con su naturaleza (por ejemplo, depreciación, compras de materiales, costos de transporte. beneficios a los empleados y costos de publicidad) y no los redistribuirá entre las diferentes funciones dentro de la entidad. 
+              p Según este método de clasificación los gastos se agrupan en el estado del resultado integral de acuerdo con su naturaleza (por ejemplo, depreciación, compras de materiales, costos de transporte, beneficios a los empleados y costos de publicidad) y no los redistribuirá entre las diferentes funciones dentro de la entidad. 
 
       .col-lg-8
         .tarjeta-avatar-b.mb-5

@@ -74,7 +74,7 @@
 
         p Si bien es cierto, el deterioro de cartera para fines contables se determina de acuerdo con la técnica contable y el grado de materialidad, en materia tributaria el deterioro de cartera se fija utilizando el método individual o el método general.
 
-        p El método individual aplica sobre cada una de las ventas a crédito de forma individual. Para su aplicación se toma cada factura de venta y aquellas que tengan más  de un año de vencidas se les aplican un deterioro del 33% anual, de manera que en tres años se pueden provisionar totalmente si fuera necesario.
+        p El método individual aplica sobre cada una de las ventas a crédito de forma individual. Para su aplicación se toma cada factura de venta y aquellas que tengan más  de un año de vencidas se les aplican un deterioro del 33 % anual, de manera que en tres años se pueden provisionar totalmente si fuera necesario.
       
       .col-12.col-lg-6.order-1.order-lg-2
         img(src="@/assets/curso/images/tema4/img_19.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
@@ -115,7 +115,7 @@
             | Infracciones del contrato, tales como incumplimientos o moras en el pago de los intereses o del principal.
           li
             i.fas.fa-check
-            | El acreedor, por razones económicas o legales relacionadas con dificultades financieras del deudor, otorga a éste concesiones que no le habría otorgado en otras circunstancias. 
+            | El acreedor, por razones económicas o legales relacionadas con dificultades financieras del deudor, otorga a este concesiones que no le habría otorgado en otras circunstancias. 
           li 
             i.fas.fa-check
             | Pase a ser probable que el deudor entre en quiebra o en otra forma de reorganización financiera.
@@ -125,7 +125,7 @@
 
     p La empresa debe hacer un seguimiento permanente a sus deudores y evidenciar si estos presentan algunas de las dificultades económicas mencionadas, que les impidan cumplir con sus obligaciones adquiridas y concluir si es susceptible de entrar en un impago.
 
-    p A partir de la conclusión y evaluación, se debe hacer el reconocimiento de deterioro bajo la medición realizada por los preparadores de la información, pues no se puede olvidar que la norma pretende que no se sobrevalue el activo.
+    p A partir de la conclusión y evaluación, se debe hacer el reconocimiento de deterioro bajo la medición realizada por los preparadores de la información, pues no se puede olvidar que la norma pretende que no se sobrevalúe el activo.
 
     p Pese a que la norma no establece una metodología para el cálculo del deterioro, un buen modelo puede ser el análisis al comportamiento histórico y establecer el ponderado de la proporción de las pérdidas de la cartera que ha ingresado en mora.
 
@@ -186,7 +186,7 @@
                 li 
                   .lista-ol--cuadro__vineta
                     span 3
-                  | Se recupera un 10% de la cartea a más de 360 días más 5% de interés
+                  | Se recupera un 10 % de la cartea a más de 360 días más 5 % de interés
                 li 
                   .lista-ol--cuadro__vineta
                     span 4
@@ -210,19 +210,19 @@
                 td.text-center Vencida
                 td.text-center 91-180
                 td.text-center 4.000.000
-                td.text-center 5%
+                td.text-center 5 %
                 td.text-center 200.000
               tr.th-4
                 td.text-center Vencida
                 td.text-center 181-360
                 td.text-center 5.500.000
-                td.text-center 10%
+                td.text-center 10 %
                 td.text-center 550.000
               tr.th-3
                 td.text-center Vencida
                 td.text-center 360
                 td.text-center 2.000.000
-                td.text-center 15%
+                td.text-center 15 %
                 td.text-center 300.000
               tr.th-4
                 td.text-center 
@@ -247,19 +247,19 @@
                 td.text-center Vencida
                 td.text-center 91-180
                 td.text-center 4.000.000
-                td.text-center 5%
+                td.text-center 5 %
                 td.text-center 200.000
               tr.th-4
                 td.text-center Vencida
                 td.text-center 181-360
                 td.text-center 5.500.000
-                td.text-center 10%
+                td.text-center 10 %
                 td.text-center 550.000
               tr.th-3
                 td.text-center Vencida
                 td.text-center 360
                 td.text-center 1.800.000
-                td.text-center 15%
+                td.text-center 15 %
                 td.text-center 270.000
               tr.th-4
                 td.text-center 

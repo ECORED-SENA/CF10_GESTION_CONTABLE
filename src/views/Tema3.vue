@@ -17,7 +17,7 @@
         img(src="@/assets/curso/images/tema3/img_15.svg" alt="", style="width:500px").m-auto
     
       .col-lg-6
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/InfografiaIngresos.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -93,7 +93,7 @@
       .col-auto
         span.bigNumber 1
       .col
-        p.mb-0 Vende inventarios de contado por un valor de $12.900.000 incluido IVA 19%, menos: retefuente 2,5% y reteica 0,6%.  (60% Gasto de Venta).
+        p.mb-0 Vende inventarios de contado por un valor de $ 12.900.000 incluido IVA 19 %, menos: retefuente 2,5 % y reteica 0,6 %.  (60 % Gasto de Venta).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10
@@ -118,12 +118,12 @@
                 td.text-center 2.059.664 
               tr.th-3
                 td.text-center AC
-                td.text-center Anticipo Retefuente 2,5%
+                td.text-center Anticipo Retefuente 2,5 %
                 td.text-center 271.008 
                 td.text-center  
               tr.th-4
                 td.text-center AC
-                td.text-center Anticipo Reteica 0,6%
+                td.text-center Anticipo Reteica 0,6 %
                 td.text-center 65.042 
                 td.text-center 
               tr.th-3
@@ -156,7 +156,7 @@
       .col-auto
         span.bigNumber 2
       .col
-        p.mb-0 Su cliente le devuelve inventarios por $1.000.000 más IVA. (60% Gasto Devolución de Venta).
+        p.mb-0 Su cliente le devuelve inventarios por $ 1.000.000 más IVA. (60 % Gasto Devolución de Venta).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10
@@ -181,12 +181,12 @@
                     td.text-center 
                   tr.th-3
                     td.text-center AC
-                    td.text-center Anticipo Retefuente 2,5%
+                    td.text-center Anticipo Retefuente 2,5 %
                     td.text-center 
                     td.text-center 25.000 
                   tr.th-4
                     td.text-center AC
-                    td.text-center Anticipo Reteica 0,6%
+                    td.text-center Anticipo Reteica 0,6 %
                     td.text-center 
                     td.text-center 6.000 
                   tr.th-3

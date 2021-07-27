@@ -89,7 +89,7 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-check
-                | Los inventarios se medirán al costo o al valor neto realizable, según cual sea menor. 
+                | Los inventarios se medirán al costo o al valor neto realizable, según cuál sea menor. 
               li 
                 i.fas.fa-check
                 | El costo de los inventarios comprenderá todos los costos derivados de su adquisición, transformación, así como otros costos en los que se haya incurrido para darles su condición y ubicación actuales. 
@@ -130,7 +130,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 4
-            | El kardex solo mueve unidades sin costos.
+            | El kárdex solo mueve unidades sin costos.
          
     
         p.my-4 El sistema de inventarios permanente tiene las siguientes características:
@@ -151,7 +151,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 4
-            | El kardex mueve tanto unidades como costos.
+            | El kárdex mueve tanto unidades como costos.
           
       .col-lg-7.col-xl-6
         img(src="@/assets/curso/images/tema1/img_5.svg" alt="", style="width:500px;").m-auto 
@@ -171,30 +171,30 @@
             tbody
               tr
                 td(width='15').text-center 0
-                td(width='85').text-center Inventario Inicial 80 camisetas a $5.000 c/u
+                td(width='85').text-center Inventario Inicial 80 camisetas a $ 5.000 c/u
               tr
                 td(width='15').text-center  1
-                td(width='85').text-center Compra 120 camisetas a $5.500 c/u
+                td(width='85').text-center Compra 120 camisetas a $ 5.500 c/u
               tr
                 td(width='15').text-center  2
-                td(width='85').text-center Compra 100 camisetas a $6.000 c/u 
+                td(width='85').text-center Compra 100 camisetas a $ 6.000 c/u 
               tr
                 td(width='15').text-center  3
                 td(width='85').text-center Devuelve 10 camisetas de la compra anterior
               tr
                 td(width='15').text-center  4
-                td(width='85').text-center Vende 190 camisetas a #[span(style="color:red;") $15.000 c/u] 
+                td(width='85').text-center Vende 190 camisetas a #[span(style="color:red;") $ 15.000 c/u] 
               tr
                 td(width='15').text-center  5
                 td(width='85').text-center Le devuelven 10 camisetas de la venta anterior
               tr
                 td(width='15').text-center  6
-                td(width='85').text-center Compra 90 camisetas a $6.500 c/u
+                td(width='85').text-center Compra 90 camisetas a $ 6.500 c/u
               tr
                 td(width='15').text-center  7
-                td(width='85').text-center Vende 100 camisetas a #[span(style="color:red;") $15.000 c/u] 
+                td(width='85').text-center Vende 100 camisetas a #[span(style="color:red;") $ 15.000 c/u] 
 
-    p.my-5 El kardex quedará así:
+    p.my-5 El kárdex quedará así:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12
@@ -494,30 +494,30 @@
             tbody
               tr
                 td(width='15').text-center 0
-                td(width='85').text-center Inventario Inicial 80 camisetas a $5.000 c/u
+                td(width='85').text-center Inventario Inicial 80 camisetas a $ 5.000 c/u
               tr
                 td(width='15').text-center  1
-                td(width='85').text-center Compra 120 camisetas a $5.500 c/u
+                td(width='85').text-center Compra 120 camisetas a $ 5.500 c/u
               tr
                 td(width='15').text-center  2
-                td(width='85').text-center Compra 100 camisetas a $6.000 c/u 
+                td(width='85').text-center Compra 100 camisetas a $ 6.000 c/u 
               tr
                 td(width='15').text-center  3
                 td(width='85').text-center Devuelve 10 camisetas de la compra anterior
               tr
                 td(width='15').text-center  4
-                td(width='85').text-center Vende 190 camisetas a $15.000 c/u
+                td(width='85').text-center Vende 190 camisetas a $ 15.000 c/u
               tr
                 td(width='15').text-center  5
                 td(width='85').text-center Le devuelven 10 camisetas de la venta anterior
               tr
                 td(width='15').text-center  6
-                td(width='85').text-center Compra 90 camisetas a $6.500 c/u
+                td(width='85').text-center Compra 90 camisetas a $ 6.500 c/u
               tr
                 td(width='15').text-center  7
-                td(width='85').text-center Vende 100 camisetas a $15.000 c/u
+                td(width='85').text-center Vende 100 camisetas a $ 15.000 c/u
 
-    p.mb-4 El kardex quedará así:
+    p.mb-4 El kárdex quedará así:
 
     .row.justify-content-center.align-items-center
       .col-12
@@ -893,7 +893,7 @@
         img(src="@/assets/curso/images/tema1/img_9.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
 
     .cajon.color-custom.p-4.mb-4
-      p.mb-0 De acuerdo con la sección 13 de NIIF para Pymes (2009), una entidad medirá los inventarios al importe menor entre el costo y el precio de venta estimado menos los costos de terminación y venta. Una entidad incluirá en el costo de los inventarios todos los costos de compra, costos de transformación y otros costos incurridos para darles su condición y ubicación actuales.Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.  
+      p.mb-0 De acuerdo con la sección 13 de NIIF para Pymes (2009), una entidad medirá los inventarios al importe menor entre el costo y el precio de venta estimado menos los costos de terminación y venta. Una entidad incluirá en el costo de los inventarios todos los costos de compra, costos de transformación y otros costos incurridos para darles su condición y ubicación actuales. Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.  
 
     p De acuerdo con la sección 13 de NIIF para Pymes (2009), cuando los inventarios se vendan, la entidad reconocerá el importe en libros de estos como un costo (gasto) en el período en el que se reconozcan los correspondientes ingresos de actividades ordinarias.
 
@@ -904,7 +904,7 @@
     p.mb-5 A continuación, se muestra un ejercicio de reconocimiento de las operaciones de compra y venta de inventarios incluido los impuestos y las retenciones.
 
     LineaTiempoD.color-secundario.mb-5
-      .row.tarjeta-fondo-paso(numero="1" titulo="Gira anticipo a proveedores por $5.000.000")
+      .row.tarjeta-fondo-paso(numero="1" titulo="Gira anticipo a proveedores por $ 5.000.000")
         .col-12
           .tabla-a.color-acento-contenido.mt-5
             table
@@ -927,7 +927,7 @@
                   td.text-center 5.000.000
               
       .row.tarjeta-fondo-paso(numero="2" titulo="Compra inventarios")
-        p Compra inventarios para la venta por $19.500.000 más IVA 19%, menos retefuente 2,5% y reteica 0,4%.
+        p Compra inventarios para la venta por $ 19.500.000 más IVA 19 %, menos retefuente 2,5 % y reteica 0,4 %.
         p Legaliza el anticipo y el. saldo a crédito
         .col-12
           .tabla-a.color-acento-contenido
@@ -951,12 +951,12 @@
                   td.text-center 
                 tr.th-3
                   td.text-center PS
-                  td.text-center Retefuente 2,5%
+                  td.text-center Retefuente 2,5 %
                   td.text-center 
                   td.text-center 487.500 
                 tr.th-4
                   td.text-center PS
-                  td.text-center Reteica 0,4%
+                  td.text-center Reteica 0,4 %
                   td.text-center 
                   td.text-center 78.000 
                 tr.th-3
@@ -971,7 +971,7 @@
                   td.text-center 17.639.500 
 
       .row.tarjeta-fondo-paso(numero="3" titulo="Devolución inventarios")
-        p Devuelve a su proveedor inventarios por $1.500.000 incluido IVA 19%
+        p Devuelve a su proveedor inventarios por $ 1.500.000 incluido IVA 19 %
         .col-12
           .tabla-a.color-acento-contenido.mt-5
             table
@@ -994,12 +994,12 @@
                   td.text-center 239.496 
                 tr.th-3
                   td.text-center PS
-                  td.text-center Retefuente 2,5%
+                  td.text-center Retefuente 2,5 %
                   td.text-center 31.513 
                   td.text-center 
                 tr.th-4
                   td.text-center PS
-                  td.text-center Reteica 0,4%
+                  td.text-center Reteica 0,4 %
                   td.text-center 5.042 
                   td.text-center 
                 tr.th-3
@@ -1011,7 +1011,7 @@
           
       .row.tarjeta-fondo-paso(numero="4" titulo="Venta de inventarios")
         .col-12
-          p Vende inventarios por un precio de $11.500.000 incluido IVA 19%, menos: retefuente 2,5%, reteiva 15% y reteica 0,4%.  Le pagan el 40% y el saldo a crédito   (65% Gasto de Venta)
+          p Vende inventarios por un precio de $ 11.500.000 incluido IVA 19 %, menos: retefuente 2,5 %, reteiva 15 % y reteica 0,4 %.  Le pagan el 40 % y el saldo a crédito   (65 % Gasto de Venta)
           .tabla-a.color-acento-contenido
             table
               thead
@@ -1038,17 +1038,17 @@
                   td.text-center  
                 tr.th-4
                   td.text-center AC
-                  td.text-center 2,5%
+                  td.text-center 2,5 %
                   td.text-center 241.597 
                   td.text-center 
                 tr.th-3
                   td.text-center AC
-                  td.text-center Anticipo Reteiva 15%
+                  td.text-center Anticipo Reteiva 15 %
                   td.text-center 275.420 
                   td.text-center 
                 tr.th-4
                   td.text-center AC
-                  td.text-center Anticipo Reteica 0,4%
+                  td.text-center Anticipo Reteica 0,4 %
                   td.text-center 38.655 
                   td.text-center 
                 tr.th-3
@@ -1093,7 +1093,7 @@
                   td.text-center.color-text 6.281.513 
        
       .row.tarjeta-fondo-paso(numero="5" titulo="Devolución de mercancía")
-        p.mb-4 El cliente le devuelve mercancías por $850.000 más IVA 19%, (65% Gasto  Devolución en Venta.
+        p.mb-4 El cliente le devuelve mercancías por $ 850.000 más IVA 19 %, (65 % Gasto  Devolución en Venta).
         .col-12
           .tabla-a.color-acento-contenido
             table
@@ -1121,17 +1121,17 @@
                   td.text-center  
                 tr.th-4
                   td.text-center AC
-                  td.text-center 2.5% 
+                  td.text-center 2.5 % 
                   td.text-center
                   td.text-center  21.250
                 tr.th-4
                   td.text-center AC
-                  td.text-center Anticipo Reteiva 15%
+                  td.text-center Anticipo Reteiva 15 %
                   td.text-center 
                   td.text-center 24.225 
                 tr.th-3
                   td.text-center AC
-                  td.text-center Anticipo Reteica 0,4%
+                  td.text-center Anticipo Reteica 0,4 %
                   td.text-center 
                   td.text-center 3.400 
                 tr.th-4

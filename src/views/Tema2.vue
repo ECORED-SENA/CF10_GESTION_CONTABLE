@@ -81,7 +81,7 @@
 
     p A continuación, se muestra un ejercicio de reconocimiento de las cuentas por pagar como instrumento financiero.
 
-    p 1. Compra a crédito inventarios para la venta por $10.100.000, más IVA 19%  menos retefuente 2,5% y reteica 0,6%.
+    p 1. Compra a crédito inventarios para la venta por $ 10.100.000, más IVA 19 %  menos retefuente 2,5 % y reteica 0,6 %.
     .row.justify-content-center.align-items-center
       .col-10
             .tabla-a.color-acento-contenido.mt-5
@@ -105,12 +105,12 @@
                     td.text-center 
                   tr.th-3
                     td.text-center PS
-                    td.text-center Retefuente 2,5%
+                    td.text-center Retefuente 2,5 %
                     td.text-center 
                     td.text-center 252.500
                   tr.th-4
                     td.text-center PS
-                    td.text-center Reteica 0,6%
+                    td.text-center Reteica 0,6 %
                     td.text-center 
                     td.text-center 60.600
                   tr.th-3
